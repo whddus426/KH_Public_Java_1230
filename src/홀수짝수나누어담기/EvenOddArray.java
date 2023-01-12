@@ -31,3 +31,4 @@ public class EvenOddArray {
         for(int e : evenList) System.out.print(e+" ");
     }
 }
+
