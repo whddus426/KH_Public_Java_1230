@@ -1,4 +1,4 @@
-package 진수벼환;
+package 진수변환;
 
 import java.util.Scanner;
 
