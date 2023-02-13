@@ -17,7 +17,7 @@ import java.util.Scanner;
 public class NameCardServer1 {
     static List<NameCard1> list = new ArrayList<>();
     public static void main(String[] args) throws IOException {
-        int port = 6657;
+        int port = 8990;
         ServerSocket serverSocket = new ServerSocket(port);
         Scanner sc = new Scanner(System.in);
         while(true) {
@@ -35,13 +35,13 @@ public class NameCardServer1 {
             }
         }
     }
-    static List<NameCard1> writeNameCard() {
+    public static List<NameCard1> writeNameCard() {
         list.add(new NameCard1("장원영", 010-4567-7894, "jang@gmail.com","아이브", "스타쉽"));
-        list.add(new NameCard1("장원영", 010-4567-7894, "jang@gmail.com","아이브", "스타쉽"));
-        list.add(new NameCard1("장원영", 010-4567-7894, "jang@gmail.com","아이브", "스타쉽"));
-        list.add(new NameCard1("장원영", 010-4567-7894, "jang@gmail.com","아이브", "스타쉽"));
-        list.add(new NameCard1("장원영", 010-4567-7894, "jang@gmail.com","아이브", "스타쉽"));
-        list.add(new NameCard1("장원영", 010-4567-7894, "jang@gmail.com","아이브", "스타쉽"));
+        list.add(new NameCard1("권민우", 010-4567-7894, "jang@gmail.com","아이브", "스타쉽"));
+        list.add(new NameCard1("나영석", 010-4567-7894, "jang@gmail.com","아이브", "스타쉽"));
+        list.add(new NameCard1("미미", 010-4567-7894, "jang@gmail.com","아이브", "스타쉽"));
+        list.add(new NameCard1("임윤아", 010-4567-7894, "jang@gmail.com","아이브", "스타쉽"));
+        list.add(new NameCard1("이준호", 010-4567-7894, "jang@gmail.com","아이브", "스타쉽"));
         list.add(new NameCard1("장원영", 010-4567-7894, "jang@gmail.com","아이브", "스타쉽"));
         list.add(new NameCard1("장원영", 010-4567-7894, "jang@gmail.com","아이브", "스타쉽"));
         list.add(new NameCard1("장원영", 010-4567-7894, "jang@gmail.com","아이브", "스타쉽"));
